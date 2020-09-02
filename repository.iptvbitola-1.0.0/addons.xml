@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+				<!--// IPTV Bitola Repository \\-->
+		<addon 
+		  id="repository.iptvbitola"
+		  name="[COLOR=green]IPTV[/COLOR] [COLOR=white]Bitola[/COLOR] [COLOR=white]Repository[/COLOR]"
+		  version="1.0.0"
+		  provider-name="IPTV Bitola">
+			<extension point="xbmc.addon.repository" 
+			name="[COLOR=green]IPTV[/COLOR] [COLOR=white]Bitola[/COLOR] [COLOR=white]Repository[/COLOR]">
+				<info compressed="false">http://cdn.phoenixrebornbuild.com.hr/repo-addons/addons.xml</info>
+				<checksum>http://cdn.phoenixrebornbuild.com.hr/repo-addons/addons.xml.gz.md5</checksum>
+				<datadir zip="true">https://mirrors.kodi.tv/addons/leia/</datadir>
+			</extension>
+			<extension point="xbmc.addon.metadata">
+				<summary lang="en_GB">IPTV Bitola Repository [COLOR=green]IPTV[/COLOR] [COLOR=white]Bitola[/COLOR]</summary>
+				<description lang="en_GB">IPTV Bitola. Free IPTV add-on and other addon's needed for use the Kodi aplications. [COLOR=green]IPTV[/COLOR] [COLOR=white]Bitola[/COLOR]</description>
+				<news lang="en_GB">IPTV Bitola Repository Version 1.0.0</news>
+				<disclaimer lang="en_GB">Author of this repository does not contain any content and has no connection with any content provider. Use at your own risk! [COLOR=green]IPTV[/COLOR] [COLOR=white]Bitola[/COLOR]</disclaimer>
+				<platform>all</platform>
+				<website>https://github.com/vlade983</website>
+			</extension>
+		</addon>
+
+				<!--// ----------------------------------------\\-->
+				
+				<!-- DAZN -->
+		<addon id="plugin.video.dazn" version="1.3.2" name="DAZN" provider-name="Jin">
+    		<requires>
+        		<import addon="xbmc.python" version="2.26.0"/>
+        		<import addon="script.module.inputstreamhelper" version="0.3.3"/>
+    		</requires>
+    		<extension point="xbmc.python.pluginsource" library="addon.py">
+        		<provides>video</provides>
+    		</extension>
+			<extension point="xbmc.service" library="startup.py"/>
+    		<extension point="xbmc.addon.metadata">
+				<summary lang="de_DE">ERLEBE DEINEN SPORT. LIVE UND AUF ABRUF.</summary>
+        		<description lang="de_DE">
+					DAZN ist ein live und on-demand Sportstreaming-Dienst.
+					Du kannst jetzt Sportevents anschauen, wann immer es dir passt. Jederzeit. Überall.
+        		</description>
+        		<disclaimer lang="de_DE">Inoffizielles Addon - Benutzung auf eigene Gefahr</disclaimer>
+        		<summary lang="en_GB">WATCH SPORTS. LIVE AND ON-DEMAND.</summary>
+        		<description lang="en_GB">
+					With DAZN, you can watch your favourite sport, live and on demand, at a time that suits you.
+					Anytime. Anywhere.
+        		</description>
+        		<disclaimer lang="en_GB">Unofficial Addon - Use at your own risk</disclaimer>
+        		<summary lang="en_US">WATCH SPORTS. LIVE AND ON-DEMAND.</summary>
+        		<description lang="en_US">
+					With DAZN, you can watch your favourite sport, live and on demand, at a time that suits you.
+					Anytime. Anywhere.
+        		</description>
+        		<disclaimer lang="en_US">Unofficial Addon - Use at your own risk</disclaimer>
+        		<summary lang="es_ES">VER ESTE DEPORTE. EN VIVO Y A LA CARTA.</summary>
+        		<description lang="es_ES">
+					Con DAZN, puedes ver tus deportes favoritos cuando lo desees.
+					Cuando quieras. Donde quieras.
+        		</description>
+        		<disclaimer lang="es_ES">Complemento no oficial - Use bajo su propio riesgo</disclaimer>
+        		<summary lang="fr_CA">REGARDER LES SPORTS. VIVANT OU PLUS TARD.</summary>
+        		<description lang="fr_CA">
+					Regardez avec DAZN vos sports préférés à la demande.
+					Quand voulez. Où vous voulez.
+        		</description>
+        		<disclaimer lang="fr_CA">Addiciel non officiel - Utilisez à vos risques et périls</disclaimer>
+        		<summary lang="fr_FR">REGARDER LES SPORTS. VIVANT OU PLUS TARD.</summary>
+        		<description lang="fr_FR">
+					Regardez avec DAZN vos sports préférés à la demande.
+					Quand voulez. Où vous voulez.
+        		</description>
+        		<disclaimer lang="fr_FR">Addiciel non officiel - Utilisez à vos risques et périls</disclaimer>
+        		<summary lang="it_IT">GUARDARE SPORT. LIVE E A RICHIESTA.</summary>
+        		<description lang="it_IT">
+					Con DAZN puoi guardare i tuoi eventi sportivi preferiti a tuo piacimento.
+					Quando vuoi. Dove vuoi.
+        		</description>
+        		<disclaimer lang="it_IT">Addon non ufficiale - A proprio rischio e pericolo</disclaimer>
+        		<platform>all</platform>
+        		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        		<website>https://www.dazn.com</website>
+        		<email>[jin] at [xyz] dot [de]</email>
+        		<source>https://github.com/JinRonin/plugin.video.dazn</source>
+    		</extension>
+		</addon>
+
+</addons>
