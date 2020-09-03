@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+				<!--// IPTV Bitola Repository \\-->
+	
+<addon 
+  id="repository.iptvbitola.Repo"
+  name="[COLOR=green]IPTV[/COLOR] [COLOR=white]Bitola[/COLOR] [COLOR=green]Repository[/COLOR]"
+  version="1.0.0"
+  provider-name="IPTV Bitola">
+	<extension point="xbmc.addon.repository" 
+    name="[COLOR=green]IPTV[/COLOR] [COLOR=white]Bitola[/COLOR] [COLOR=green]Repository[/COLOR]">
+		<info compressed="false">https://raw.githubusercontent.com/vlade983/IPTV-Bitola/master/repository.iptvbitola-1.0.0/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/vlade983/IPTV-Bitola/master/repository.iptvbitola-1.0.0/addons.xml.gz.md5</checksum>
+		<datadir zip="true">https://github.com/vlade983/IPTV-Bitola/raw/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">IPTV Bitola Repository [COLOR=green]IPTV[/COLOR] [COLOR=white]Bitola[/COLOR]</summary>
+		<description lang="en_GB">IPTV Bitola. Free IPTV add-on and other addon's needed for use the Kodi aplications. [COLOR=green]IPTV[/COLOR] [COLOR=white]Bitola[/COLOR]</description>
+		<news lang="en_GB">IPTV Bitola Repository Version 1.0.0</news>
+		<disclaimer lang="en_GB">Author of this repository does not contain any content and has no connection with any content provider. Use at your own risk! [COLOR=green]IPTV[/COLOR] [COLOR=white]Bitola[/COLOR]</disclaimer>
+		<platform>all</platform>
+		<website>https://github.com/vlade983</website>
+	</extension>
+</addon>
