@@ -10,7 +10,7 @@
 			name="[COLOR=green]IPTV[/COLOR] [COLOR=white]Bitola[/COLOR] [COLOR=white]Repository[/COLOR]">
 				<info compressed="false">https://raw.githubusercontent.com/vlade983/IPTV-Bitola/master/repository.iptvbitola-1.0.0/addons.xml</info>
 				<checksum>hhttps://raw.githubusercontent.com/vlade983/IPTV-Bitola/master/repository.iptvbitola-1.0.0/addons.xml.gz.md5</checksum>
-				<datadir zip="true">https://mirrors.kodi.tv/addons/leia/</datadir>
+				<datadir zip="true">https://github.com/vlade983/IPTV-Bitola/raw/master/repo/</datadir>
 			</extension>
 			<extension point="xbmc.addon.metadata">
 				<summary lang="en_GB">IPTV Bitola Repository [COLOR=green]IPTV[/COLOR] [COLOR=white]Bitola[/COLOR]</summary>
